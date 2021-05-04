@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kiwi+Maru&family=New+Tegomin&family=Satisfy&display=swap');
+
+.home-header h1 {
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  color: rgb(183, 141, 223);
+  font-size: 4vw;
+  font-weight: 700;
+  background: linear-gradient(to left, #bd91ee 20%, #8ae6f7 50%, #f18ebf 50%);
+  /* background-size: auto auto; */
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  /* background-clip: text; */
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3.5s linear infinite;
+  display: block;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.heading-name {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#home {
+  height: calc(100vh - 70px);
+  background-color: #b5fffc;
+  background: linear-gradient(135deg, #b5fffc 0%, #e3dcf6 50%, #ffdee9 100%),
+    url(../images/bg.jpeg);
+  background-blend-mode: screen;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* #wave{
+    position: absolute;
+    left:0;
+    bottom: 0;
+} */
+
+.row-home {
+  display: flex;
+  /* ALlow images to display on multiple lines rather than a single line */
+  flex-wrap: wrap;
+  /* Container should take up only 90% of the browser, leave 5% space on each side */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.grid-area {
+  margin-left: 4rem;
+  margin-right: 3rem;
+  margin-bottom: 4rem;
+}
+
+img.chay:hover {
+  /* opacity: .5; */
+  transition: 0s;
+  animation: rotate 1.2s linear reverse infinite;
+  background: #f5ceeba4;
+}
+
+@media only screen and (min-width: 992px){
+    #home{
+        height: calc(100vh - 95px);
+  background-color: #b5fffc;
+  background: linear-gradient(135deg, #b5fffc 0%, #e3dcf6 50%, #ffdee9 100%),
+    url(../images/bg.jpeg);
+  background-blend-mode: screen;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    }
+}
+
+img.chay {
+  width: 30%;
+  border-radius: 50%;
+  margin-top: 1rem;
+  border: solid transparent;
+  background-origin: border-box;
+  box-shadow: 0 0 10px 10px rgba(245, 113, 164, 0.5);
+  margin-bottom: 100px;
+}

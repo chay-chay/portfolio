@@ -1,0 +1,34 @@
+section {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 6rem;
+  background-color: #B5FFFC;
+  background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/background.jpeg); 
+  color: rgb(128, 125, 129);
+  text-align: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+a {
+  color: rgb(128, 125, 129);
+  margin: 1.5rem;
+  font-weight: 500;
+}
+
+/* @media only screen and (max-width: 767px){
+ .footer{
+   position: initial;
+ }
+} */
+
+.contact{
+font-size: 1.5rem;
+}

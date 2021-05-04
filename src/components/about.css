@@ -1,0 +1,39 @@
+#about{
+    font-size: larger;
+    text-align:justify;
+    height: calc(100vh - 70px);
+    background-color: #B5FFFC;
+    background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/bg.jpeg); 
+    background-blend-mode: screen;   
+     background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2rem 1.2rem;
+}
+
+@media only screen and (min-width: 992px){
+    #about{
+        font-size: larger;
+        text-align:justify;
+        height: calc(100vh - 95px);
+        background-color: #B5FFFC;
+        background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/bg.jpeg); 
+        background-blend-mode: screen;   
+         background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 2rem 10em;
+    }
+}
+
+.my-app{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+}
+
+.app-pic{
+    padding: 1rem;
+  }

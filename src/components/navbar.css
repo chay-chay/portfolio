@@ -1,0 +1,53 @@
+#responsive-navbar-nav{
+    /* height:30px; */
+    /* width: 50%; */
+    align-items: center;
+    right: 0;  
+    text-align: center;
+    
+}
+
+.navbar{
+    background-color: #B5FFFC;
+    background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%), url(../images/background.jpeg); 
+    padding: 0;
+    /* width: 100%; */
+}
+
+.navbar-brand{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:rgba(255, 255, 255, 0);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    /* color: rgb(245, 113, 131); */
+    color: rgb(201, 98, 248);
+    font-size: larger;
+    font-weight: bolder;
+    
+   
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    opacity: 1;
+    font-size: larger;
+    font-weight: bolder;
+    box-shadow: 0 5px rgb(245, 113, 175);
+    transform: translateY(4px);
+   
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+    color: rgb(245, 113, 175);
+    opacity: 1;
+    font-size: larger;
+    font-weight: 900;
+    transform: translateY(-2px);
+}
+
+.navbar.navbar-toggler-icon {
+    background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger2.svg?color=fff');
+    }
