@@ -1,3 +1,7 @@
+.video {
+   width: auto;
+   height: 20rem
+}
 .project {
   text-align: center;
   background-color: #ffffff;
@@ -92,3 +96,59 @@ h6 {
     background-color: #B5FFFC;
     background: linear-gradient(135deg, #B5FFFC 0%, #e3dcf6 50%, #FFDEE9 100%)
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .work {
+    min-height: calc(100vh - 95px);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 0;
+    background-color: #b5fffc;
+    background: linear-gradient(135deg, #b5fffc 0%, #e3dcf6 50%, #ffdee9 100%);
+  }
+
+  .project {
+  text-align: center;
+  background-color: #ffffff;
+  width: 300px;
+  display: inline-table;
+  padding: 0.5rem 3rem 0.6rem 3rem;
+  margin: 2em 1.5em 2em 1.5em;
+  border-radius: 8px;
+}
+.video {
+  width: auto;
+  height: 10rem
+}
+.btn {
+  margin: 1rem 1rem;
+  -webkit-appearance: none;
+  border: 6px solid rgba(216, 205, 205, 0.45);
+  border-radius: 50px;
+  padding: 0.5em 1.5em;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-clip: padding-box;
+  position: relative;
+  color: rgb(182, 107, 231);
+  cursor: pointer;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

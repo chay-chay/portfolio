@@ -26,7 +26,7 @@ const Home = () => {
               fixedStop={false}
               freez={false}
             >
-              <img src="https://img.icons8.com/dusk/64/000000/so-so.png" />
+              <img src="https://img.icons8.com/dusk/64/000000/so-so.png" alt="hi"/>
             </Shake>
           </h1>
 

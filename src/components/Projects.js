@@ -16,17 +16,18 @@ const Projects = () => {
           return to in the future. Easily searchable by name, category, and
           ethnicity…Bite Bank is a useful tool for any chef!
         </h6>
-        <a href="https://bite-bank.netlify.app/" target="_blank" class="btn">
+        <a href="https://bite-bank.netlify.app/" target="_blank" class="btn" rel="noreferrer">
           Live App
         </a>
         <a
           href="https://github.com/chay-chay/bite-bank-client"
           target="_blank"
           class="btn"
+          rel="noreferrer"
         >
           Github
         </a>
-        <div style={{ width: "auto", height: "20rem" }}>
+        <div className="video">
           <ReactPlayer
             url="https://youtu.be/mVHMsb0lXLw"
             width="100%"
@@ -46,10 +47,10 @@ const Projects = () => {
           their score is in the top ten, it will be shown on the board at the
           end of the game.{" "}
         </h6>
-        <a href="https://pair-it-up.netlify.app/" target="_blank" class="btn">
+        <a href="https://pair-it-up.netlify.app/" target="_blank" class="btn" rel="noreferrer">
           Live App
         </a>
-        <a href="https://youtu.be/M26lT_x6ADs" target="_blank" class="btn">
+        <a href="https://youtu.be/M26lT_x6ADs" target="_blank" class="btn" rel="noreferrer">
           Github
         </a>
         <div style={{ width: "auto", height: "20rem" }}>
@@ -75,6 +76,7 @@ const Projects = () => {
           href="https://cafe-verdict.herokuapp.com/"
           target="_blank"
           class="btn"
+          rel="noreferrer"
         >
           Live App
         </a>
@@ -82,6 +84,7 @@ const Projects = () => {
           href="https://github.com/chay-chay/cafe-review-rails-project"
           target="_blank"
           class="btn"
+          rel="noreferrer"
         >
           Github
         </a>
