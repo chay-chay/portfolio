@@ -11,8 +11,7 @@ const Home = () => {
       <div className="row-home">
         <div className="grid-area home-header">
           <h1
-            style={{ paddingBottom: 50, textAlign: "center" }}
-            className="heading"
+            className="heading hello"
           >
             Hello!{" "}
             <Shake

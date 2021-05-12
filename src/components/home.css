@@ -24,6 +24,11 @@
   }
 }
 
+.hello {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
 .heading-name {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -104,4 +109,9 @@ img.chay {
     box-shadow: 0 0 10px 10px rgba(245, 113, 164, 0.5);
     margin-bottom: 100px;
   }
+  
+  .home-header {
+    margin: 50px;
+  }
+  
 }
