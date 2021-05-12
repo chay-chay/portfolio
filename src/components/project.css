@@ -18,9 +18,7 @@
   display: flex;
   flex-wrap: wrap;
   align-self: center;
-
   /* justify-content: center; */
-  
   padding: 0;
   background-color: #b5fffc;
   background: linear-gradient(135deg, #b5fffc 0%, #e3dcf6 50%, #ffdee9 100%);
