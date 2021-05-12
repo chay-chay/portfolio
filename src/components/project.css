@@ -98,8 +98,9 @@ h6 {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width : 530px) {
   .work {
+    font-size: 1px;
     min-height: calc(100vh - 95px);
     text-align: center;
     display: flex;
@@ -112,6 +113,7 @@ h6 {
   }
 
   .project {
+  font-size: 1px;
   text-align: center;
   background-color: #ffffff;
   width: 300px;
