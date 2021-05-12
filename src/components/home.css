@@ -97,17 +97,17 @@ img.chay {
   border: solid transparent;
   background-origin: border-box;
   box-shadow: 0 0 10px 10px rgba(245, 113, 164, 0.5);
-  margin-bottom: 100px;
+  margin-bottom: 10rem;
 }
 
-@media only screen and (max-width : 700px) {
+@media only screen and (max-width : 600px) {
   img.chay {
-    width: 50%;
+    width: 45%;
     border-radius: 50%;
     border: solid transparent;
     background-origin: border-box;
     box-shadow: 0 0 10px 10px rgba(245, 113, 164, 0.5);
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
   
   .home-header {
@@ -115,7 +115,28 @@ img.chay {
   }
 
   .home-header h1{
-    font-size: 10vw;
+    font-size: 6vw;
+    font-weight: 700;
+  }
+  
+}
+
+@media only screen and (min-width: 601px) and (max-width : 839px) {
+  img.chay {
+    width: 32%;
+    border-radius: 50%;
+    border: solid transparent;
+    background-origin: border-box;
+    box-shadow: 0 0 10px 10px rgba(245, 113, 164, 0.5);
+    margin-bottom: 200px;
+  }
+  
+  .home-header {
+    margin: 50px;
+  }
+
+  .home-header h1{
+    font-size: 4vw;
     font-weight: 700;
   }
   
