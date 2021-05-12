@@ -6,6 +6,11 @@ const Projects = () => {
   return (
     <div className="work">
       <div className="card project">
+      <img
+      src="https://img.icons8.com/clouds/100/000000/weather-portal-.png"
+      alt="img"
+      className="image"
+    />
         <h6>Project Name: Bite Bank</h6>
         <h6>Client side: React, Redux, and Thunk</h6>
         <h6>Server side: Ruby on Rails</h6>
@@ -42,6 +47,11 @@ const Projects = () => {
       </div>
 
       <div className="card project">
+      <img
+      src="https://img.icons8.com/clouds/100/000000/weather-portal-.png"
+      alt="img"
+      className="image"
+    />
         <h6>Project Name: Pair It Up!</h6>
         <h6>Client side: Javascript</h6>
         <h6>Server side: Ruby on Rails</h6>
@@ -50,7 +60,7 @@ const Projects = () => {
           see if they can make matches in the fewest number of moves. When all
           the cards are flipped, the game is over. The player has the option of
           recording their score. If their score is in the top ten, it will be
-          shown on the board at the end of the game.{" "}
+          shown on the board at the end of game.{" "}
         </h6>
         <a
           href="https://pair-it-up.netlify.app/"
@@ -78,8 +88,14 @@ const Projects = () => {
       </div>
 
       <div className="card project last-card">
+        <img
+          src="https://img.icons8.com/clouds/100/000000/weather-portal-.png"
+          alt="img"
+          className="image"
+        />
         <h6>Project Name: Cafe Verdict</h6>
         <h6>Client side: Ruby on Rails</h6>
+
         <h6>Server side: Ruby on Rails</h6>
         <h6>
           Description: Cafe Verdict is an application that allows users to rate
