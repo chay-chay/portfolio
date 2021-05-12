@@ -13,7 +13,7 @@ const NavBar = () => {
   const [expand, updateExpanded] = useState(false);
   
   return (
-    <Navbar collapseOnSelect expand="lg" className="navbar-head sticky-top">
+    <Navbar collapseOnSelect expanded={expand} expand="lg" className="navbar-head sticky-top">
       <Container>
         <Navbar.Brand className="navbar" href="/">
           <img width="auto" height="50px" className="img-responsive" src={logo}  alt="logo" />
@@ -30,13 +30,13 @@ const NavBar = () => {
             </Nav.Item>
             
             <Nav.Item>
-              <Nav.Link as={Link} to="/project" >
+              <Nav.Link as={Link} to="/project" onClick={() => updateExpanded(false)}>
                <FcVideoProjector />  Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/about">
+              <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
                 <FcBusinesswoman /> About
               </Nav.Link>
             </Nav.Item>
