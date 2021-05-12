@@ -17,9 +17,10 @@
   /* text-align: center; */
   display: flex;
   flex-wrap: wrap;
-  align-self: flex-end;
+  align-self: center;
+
   /* justify-content: center; */
-  /* align-content: flex-start; */
+  
   padding: 0;
   background-color: #b5fffc;
   background: linear-gradient(135deg, #b5fffc 0%, #e3dcf6 50%, #ffdee9 100%);
@@ -32,7 +33,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-content: flex-start;
+        align-self: center;
         padding: 0;
         background-color: #b5fffc;
         background: linear-gradient(135deg, #b5fffc 0%, #e3dcf6 50%, #ffdee9 100%);
@@ -105,7 +106,7 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: flex-start;
+    align-self: center;  
     padding: 0;
     background-color: #b5fffc;
     background: linear-gradient(135deg, #b5fffc 0%, #e3dcf6 50%, #ffdee9 100%);
@@ -113,12 +114,13 @@ h6 {
 
   .project {
     font-size: 1vw;
-  text-align: center;
-  width: 400px;
-  display: inline-table;
-  padding: 0.5rem 3rem 0.6rem 3rem;
-  margin: 2em 1.5em 2em 1.5em;
-  border-radius: 8px;
+    text-align: center;
+    width: 400px;
+    justify-content: center;
+    display: inline-table;
+    padding: 0.5rem 3rem 0.6rem 3rem;
+    margin: 2em 1.5em 2em 1.5em;
+    border-radius: 8px;
 }
 .video {
   width: auto;
@@ -143,4 +145,15 @@ h6 {
   margin-bottom: 8rem;
 }
 
+}
+
+@media only screen and (min-width : 530px) and (max-width : 991px) {
+  .work {
+    font-size: 3vw;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+  }
 }
