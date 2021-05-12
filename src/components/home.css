@@ -94,3 +94,14 @@ img.chay {
   box-shadow: 0 0 10px 10px rgba(245, 113, 164, 0.5);
   margin-bottom: 100px;
 }
+
+@media only screen and (max-width : 700px) {
+  img.chay {
+    width: 50%;
+    border-radius: 50%;
+    border: solid transparent;
+    background-origin: border-box;
+    box-shadow: 0 0 10px 10px rgba(245, 113, 164, 0.5);
+    margin-bottom: 100px;
+  }
+}
