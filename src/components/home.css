@@ -113,5 +113,11 @@ img.chay {
   .home-header {
     margin: 50px;
   }
+
+  .home-header{
+    font-size: 30vw;
+    font-weight: 700;
+  }
+  
   
 }
