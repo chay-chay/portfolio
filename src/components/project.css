@@ -1,6 +1,6 @@
 .video {
    width: auto;
-   height: 20rem
+   height: 20rem;
 }
 .project {
   text-align: center;
@@ -122,8 +122,9 @@ h6 {
 }
 .video {
   width: auto;
-  height: 10rem;
+  height: 250px;
 }
+
 .btn {
   margin: 1rem 1rem;
   -webkit-appearance: none;
