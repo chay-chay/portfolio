@@ -16,7 +16,12 @@ const Projects = () => {
           return to in the future. Easily searchable by name, category, and
           ethnicity…Bite Bank is a useful tool for any chef!
         </h6>
-        <a href="https://bite-bank.netlify.app/" target="_blank" class="btn" rel="noreferrer">
+        <a
+          href="https://bite-bank.netlify.app/"
+          target="_blank"
+          class="btn"
+          rel="noreferrer"
+        >
           Live App
         </a>
         <a
@@ -42,15 +47,25 @@ const Projects = () => {
         <h6>Server side: Ruby on Rails</h6>
         <h6>
           Description: Pair It Up! is a matching game where players compete to
-          see if they can make matches in the fewest number of moves. When all the cards are flipped, the
-          game is over. The player has the option of recording their score. If
-          their score is in the top ten, it will be shown on the board at the
-          end of the game.{" "}
+          see if they can make matches in the fewest number of moves. When all
+          the cards are flipped, the game is over. The player has the option of
+          recording their score. If their score is in the top ten, it will be
+          shown on the board at the end of the game.{" "}
         </h6>
-        <a href="https://pair-it-up.netlify.app/" target="_blank" class="btn" rel="noreferrer">
+        <a
+          href="https://pair-it-up.netlify.app/"
+          target="_blank"
+          class="btn"
+          rel="noreferrer"
+        >
           Live App
         </a>
-        <a href="https://youtu.be/M26lT_x6ADs" target="_blank" class="btn" rel="noreferrer">
+        <a
+          href="https://youtu.be/M26lT_x6ADs"
+          target="_blank"
+          class="btn"
+          rel="noreferrer"
+        >
           Github
         </a>
         <div className="video">
@@ -70,7 +85,7 @@ const Projects = () => {
           Description: Cafe Verdict is an application that allows users to rate
           cafes base upon their experiences and perceptions of cafes they have
           visited. Before you check out or give reviews, you have to sign up and
-          login to access the program.
+          login to access the program. Then create new cafes and add reviews.
         </h6>
         <a
           href="https://cafe-verdict.herokuapp.com/"

@@ -10,9 +10,7 @@ const Home = () => {
     <div id="home">
       <div className="row-home">
         <div className="grid-area home-header">
-          <h1
-            className="heading hello"
-          >
+          <h1 className="heading hello">
             Hello!{" "}
             <Shake
               h={8}
@@ -25,7 +23,10 @@ const Home = () => {
               fixedStop={false}
               freez={false}
             >
-              <img src="https://img.icons8.com/dusk/64/000000/so-so.png" alt="hi"/>
+              <img
+                src="https://img.icons8.com/dusk/64/000000/so-so.png"
+                alt="hi"
+              />
             </Shake>
           </h1>
 
