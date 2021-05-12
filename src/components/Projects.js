@@ -53,7 +53,7 @@ const Projects = () => {
         <a href="https://youtu.be/M26lT_x6ADs" target="_blank" class="btn" rel="noreferrer">
           Github
         </a>
-        <div style={{ width: "auto", height: "20rem" }}>
+        <div className="video">
           <ReactPlayer
             url="https://youtu.be/M26lT_x6ADs"
             width="100%"
@@ -88,7 +88,7 @@ const Projects = () => {
         >
           Github
         </a>
-        <div style={{ width: "auto", height: "20rem" }}>
+        <div className="video">
           <ReactPlayer
             url="https://youtu.be/2RUtH5Ifw24"
             width="100%"
