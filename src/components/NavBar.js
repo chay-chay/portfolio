@@ -10,7 +10,7 @@ import { FcHome, FcBusinesswoman, FcVideoProjector} from 'react-icons/fc';
 
 
 const NavBar = () => {
-  const [navbarOpen, setNavbarOpen] = useState(false)
+  const [expand, updateExpanded] = useState(false);
   
   return (
     <Navbar collapseOnSelect expand="lg" className="navbar-head sticky-top">
@@ -18,11 +18,13 @@ const NavBar = () => {
         <Navbar.Brand className="navbar" href="/">
           <img width="auto" height="50px" className="img-responsive" src={logo}  alt="logo" />
           </Navbar.Brand>
-        <Navbar.Toggle  area-controls="responsive-navbar-nav" /> 
+        <Navbar.Toggle  area-controls="responsive-navbar-nav" onClick={() => {
+          updateExpanded(expand ? false : "expanded");
+        }} /> 
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" >
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                  <FcHome /> Home
               </Nav.Link>
             </Nav.Item>
