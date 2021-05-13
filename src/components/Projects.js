@@ -101,7 +101,7 @@ const Projects = () => {
           Description: Cafe Verdict is an application that allows users to rate
           cafes base upon their experiences and perceptions of cafes they have
           visited. Before you check out or give reviews, you have to sign up and
-          login to access the program. Then create new cafes and add reviews.
+          login to access the program. Then you can create new cafes and add reviews.
         </h6>
         <a
           href="https://cafe-verdict.herokuapp.com/"
