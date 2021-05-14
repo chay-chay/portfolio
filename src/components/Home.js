@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import "./home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import chay from "../images/chay.png";
+import chay from "../images/chay2.png";
 import { Shake } from "reshake";
 
 const Home = () => {
