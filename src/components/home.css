@@ -91,7 +91,7 @@ img.chay:hover {
 }
 
 img.chay {
-  width: 30%;
+  width: 20%;
   border-radius: 50%;
   margin-top: 1rem;
   border: solid transparent;
@@ -102,7 +102,7 @@ img.chay {
 
 @media only screen and (max-width : 600px) {
   img.chay {
-    width: 45%;
+    width: 30%;
     border-radius: 50%;
     border: solid transparent;
     background-origin: border-box;
@@ -123,7 +123,7 @@ img.chay {
 
 @media only screen and (min-width: 601px) and (max-width : 839px) {
   img.chay {
-    width: 32%;
+    width: 25%;
     border-radius: 50%;
     border: solid transparent;
     background-origin: border-box;
