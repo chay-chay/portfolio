@@ -71,7 +71,7 @@ const Projects = () => {
           Live App
         </a>
         <a
-          href="https://youtu.be/M26lT_x6ADs"
+          href="https://github.com/chay-chay/pair-it-up"
           target="_blank"
           class="btn"
           rel="noreferrer"

@@ -10,7 +10,7 @@ const Footer = () => (
       <div className="text">Chayanit McCormick 2021 ©</div>
       <div>
         <a
-          href="https://github.com/chay-chay/recipes-frontend"
+          href="https://github.com/chay-chay"
           className="text"
         >
           <SiGithub />
