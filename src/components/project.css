@@ -5,9 +5,10 @@
 .project {
   text-align: center;
   width: 500px;
+  height: 600px;
   display: inline-table;
   padding: 0.5rem 3rem 0.6rem 3rem;
-  margin: 2em 1.5em 2em 1.5em;
+  margin: 1em 1.5em 7em 1.5em;
   border-radius: 8px;
 }
 
@@ -18,7 +19,6 @@
   display: flex;
   flex-wrap: wrap;
   align-self: center;
-  /* justify-content: center; */
   padding: 0;
   background-color: #b5fffc;
   background: linear-gradient(135deg, #b5fffc 0%, #e3dcf6 50%, #ffdee9 100%);
@@ -38,9 +38,6 @@
       }
 }
 
-.last-card {
-  margin-bottom: 8rem;
-}
 .card:hover {
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
 }

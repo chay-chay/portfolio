@@ -1,0 +1,32 @@
+{
+    "portfolio": [
+        {
+            "name": "Bite Bank",
+            "client": "React, Redux, and Thunk",
+            "server": "Ruby on Rails",
+            "description": "Bite Bank is a media storage platform dedicated to the culinary arts. It allows for quick reference to cooking videos of interest by keeping a record of those you would like to flag and return to in the future. Easily searchable by name, category, and ethnicity…Bite Bank is a useful tool for any chef!",
+            "live": "https://bite-bank.netlify.app/",
+            "github": "https://github.com/chay-chay/bite-bank-client",
+            "youtube": "https://youtu.be/mVHMsb0lXLw"
+        },
+        {
+            "name": "Pair It Up!",
+            "client": "Javascript",
+            "server": "Ruby on Rails",
+            "description": "Pair It Up! is a matching game where players compete to see if they can make matches in the fewest number of moves. When all the cards are flipped, the game is over. The player has the option of recording their score. If their score is in the top ten, it will be shown on the board at the end of game.",
+            "live": "https://pair-it-up.netlify.app/",
+            "github": "https://github.com/chay-chay/pair-it-up",
+            "youtube": "https://youtu.be/M26lT_x6ADs"
+        },
+        {
+            "name": "Cafe Verdict",
+            "client": "Ruby on Rails",
+            "server": "Ruby on Rails",
+            "description": "Cafe Verdict is an application that allows users to rate cafes base upon their experiences and perceptions of cafes they have visited. Before you check out or give reviews, you have to sign up and login to access the program. Then you can add new cafes and reviews.",
+            "live": "https://cafe-verdict.herokuapp.com/",
+            "github": "https://github.com/chay-chay/pair-it-up",
+            "youtube": "https://youtu.be/2RUtH5Ifw24"
+        }          
+    ]
+
+}
