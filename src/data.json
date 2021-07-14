@@ -24,7 +24,7 @@
             "server": "Ruby on Rails",
             "description": "Cafe Verdict is an application that allows users to rate cafes base upon their experiences and perceptions of cafes they have visited. Before you check out or give reviews, you have to sign up and login to access the program. Then you can add new cafes and reviews.",
             "live": "https://cafe-verdict.herokuapp.com/",
-            "github": "https://github.com/chay-chay/pair-it-up",
+            "github": "https://github.com/chay-chay/cafe-review-rails-project",
             "youtube": "https://youtu.be/2RUtH5Ifw24"
         }          
     ]
